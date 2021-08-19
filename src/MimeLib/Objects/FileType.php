@@ -6,16 +6,16 @@
     class FileType
     {
         /**
-         * @var string
+         * @var string|null
          */
-        private string $Extension;
+        private ?string $Extension;
 
         /**
          * @var string
          */
         private string $Mime;
 
-        public function __construct(string $extension, string $mime)
+        public function __construct(?string $extension, string $mime)
         {
             $this->Extension = $extension;
             $this->Mime = $mime;
@@ -30,9 +30,9 @@
         }
 
         /**
-         * @return string
+         * @return string|null
          */
-        public function getExtension(): string
+        public function getExtension(): ?string
         {
             return $this->Extension;
         }

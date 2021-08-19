@@ -62,7 +62,7 @@
         public static function load(string $path, int $max_byte_cache_length=4096): TargetFile
         {
             if(file_exists($path) == false)
-                throw new FileNotFoundException('The file \'$path\' does not exist');
+                throw new FileNotFoundException("The file '$path' does not exist");
 
             $TargetFileObject = new TargetFile();
 

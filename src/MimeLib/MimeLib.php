@@ -301,7 +301,6 @@
                 if($results !== false)
                 {
                     $MimeLib = new MimeLib();
-
                     return new FileType($MimeLib->getExtension($results), $results);
                 }
             }
