@@ -1,0 +1,232 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.mimelib",
+        "name": "MimeLib",
+        "version": "1.0.0.0",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid Technologies",
+        "description": "A all-in-one swiss army knife for Mime detection",
+        "url": "https://github.com/Intellivoid/MimeLib",
+        "dependencies": [],
+        "configuration": {
+            "autoload_method": "generated_spl",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "Classes/MimeMappingBuilder.php"
+        },
+        {
+            "required": true,
+            "file": "Classes/Utilities.php"
+        },
+        {
+            "required": true,
+            "file": "Classes/MimeMappingGenerator.php"
+        },
+        {
+            "required": true,
+            "file": "Exceptions/BuiltinMapNotFoundException.php"
+        },
+        {
+            "required": true,
+            "file": "Exceptions/FileNotFoundException.php"
+        },
+        {
+            "required": true,
+            "file": "Exceptions/CannotDetectFileTypeException.php"
+        },
+        {
+            "required": true,
+            "file": "Exceptions/MethodNotApplicableException.php"
+        },
+        {
+            "required": true,
+            "file": "MimeLib.php"
+        },
+        {
+            "required": true,
+            "file": "Interfaces/FileTypeDetectionInterface.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileType.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mpg.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Tar.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mid.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Dmg.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Avi.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Zip.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/M4a.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mkv.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Ods.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Wmv.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/_3gp.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mp2.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Png.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Bz2.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mp3.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Rar.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Psd.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Jpg.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Bmp.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Odt.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Webp.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Qcp.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Cr2.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Tif.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Xlsx.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Gz.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Pptx.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Flif.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mp4.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Xpi.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Jxr.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Epub.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mov.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Mp4Audio.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Gif.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Webm.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/_7z.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Odp.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Docx.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Wav.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/FileTypes/Ani.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/TargetFile.php"
+        }
+    ],
+    "files": [
+        "package.json",
+        "Data/mime.types.json"
+    ]
+}
