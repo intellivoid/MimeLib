@@ -11,56 +11,6 @@
       "text/php",
       "text/x-php"
     ],
-    "otf":[
-      "application/x-font-otf",
-      "font/otf"
-    ],
-    "ttf":[
-      "application/x-font-ttf",
-      "font/ttf"
-    ],
-    "ttc":[
-      "application/x-font-ttf",
-      "font/collection"
-    ],
-    "zip":[
-      "application/x-gzip",
-      "application/zip"
-    ],
-    "amr":[
-      "audio/amr"
-    ],
-    "mp3":[
-      "audio/mpeg"
-    ],
-    "mpga":[
-      "audio/mpeg"
-    ],
-    "mp2":[
-      "audio/mpeg"
-    ],
-    "mp2a":[
-      "audio/mpeg"
-    ],
-    "m2a":[
-      "audio/mpeg"
-    ],
-    "m3a":[
-      "audio/mpeg"
-    ],
-    "jpg":[
-      "image/jpeg"
-    ],
-    "jpeg":[
-      "image/jpeg"
-    ],
-    "jpe":[
-      "image/jpeg"
-    ],
-    "bmp":[
-      "image/x-ms-bmp",
-      "image/bmp"
-    ],
     "ez":[
       "application/andrew-inset"
     ],
@@ -2216,6 +2166,9 @@
     "yin":[
       "application/yin+xml"
     ],
+    "zip":[
+      "application/zip"
+    ],
     "adp":[
       "audio/adpcm"
     ],
@@ -2243,6 +2196,24 @@
     "mp4a":[
       "audio/mp4"
     ],
+    "mpga":[
+      "audio/mpeg"
+    ],
+    "mp2":[
+      "audio/mpeg"
+    ],
+    "mp2a":[
+      "audio/mpeg"
+    ],
+    "mp3":[
+      "audio/mpeg"
+    ],
+    "m2a":[
+      "audio/mpeg"
+    ],
+    "m3a":[
+      "audio/mpeg"
+    ],
     "oga":[
       "audio/ogg"
     ],
@@ -2250,6 +2221,9 @@
       "audio/ogg"
     ],
     "spx":[
+      "audio/ogg"
+    ],
+    "opus":[
       "audio/ogg"
     ],
     "s3m":[
@@ -2360,11 +2334,23 @@
     "xyz":[
       "chemical/x-xyz"
     ],
+    "ttc":[
+      "font/collection"
+    ],
+    "otf":[
+      "font/otf"
+    ],
+    "ttf":[
+      "font/ttf"
+    ],
     "woff":[
       "font/woff"
     ],
     "woff2":[
       "font/woff2"
+    ],
+    "bmp":[
+      "image/bmp"
     ],
     "cgm":[
       "image/cgm"
@@ -2377,6 +2363,15 @@
     ],
     "ief":[
       "image/ief"
+    ],
+    "jpeg":[
+      "image/jpeg"
+    ],
+    "jpg":[
+      "image/jpeg"
+    ],
+    "jpe":[
+      "image/jpeg"
     ],
     "ktx":[
       "image/ktx"
@@ -2999,19 +2994,6 @@
     ],
     "audio/amr":[
       "amr"
-    ],
-    "audio/mpeg":[
-      "mp3",
-      "mpga",
-      "mp2",
-      "mp2a",
-      "m2a",
-      "m3a"
-    ],
-    "image/jpeg":[
-      "jpg",
-      "jpeg",
-      "jpe"
     ],
     "image/x-ms-bmp":[
       "bmp"
@@ -4929,10 +4911,19 @@
       "m4a",
       "mp4a"
     ],
+    "audio/mpeg":[
+      "mpga",
+      "mp2",
+      "mp2a",
+      "mp3",
+      "m2a",
+      "m3a"
+    ],
     "audio/ogg":[
       "oga",
       "ogg",
-      "spx"
+      "spx",
+      "opus"
     ],
     "audio/s3m":[
       "s3m"
@@ -5063,6 +5054,11 @@
     ],
     "image/ief":[
       "ief"
+    ],
+    "image/jpeg":[
+      "jpeg",
+      "jpg",
+      "jpe"
     ],
     "image/ktx":[
       "ktx"
